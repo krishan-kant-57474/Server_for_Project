@@ -15,7 +15,7 @@ const providerETH = new ethers.providers.WebSocketProvider(
 	"wss://eth-goerli.g.alchemy.com/v2/OeUzKKKE9hMPV5i2-udahf0zD8YfOPoH"
 );
 const providerFIL = new ethers.providers.JsonRpcProvider(
-	"https://api.hyperspace.node.glif.io/rpc/v0"
+	"https://api.hyperspace.node.glif.io/rpc/v1"
 );
 const wallet = new ethers.Wallet(pvtkey);
 // const SignerEth = wallet.connect(providerETH);
