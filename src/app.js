@@ -10,7 +10,7 @@ const ERC20_ETH_ADDRESS = "0x53af486fA636469F3833102f57eD82CAe26ADfD2";
 const ERC20_FIL_ADDRESS = "0x7D574C8Fc975afCeb6068a93a0B28F70138c92a7";
 const WETH_FIL_ADDRESS = "0xc9C214a1BA1c266e632C3274B2c2d33422f3963b";
 const pvtkey =
-	"ed8ab54004d7138bca3f8015e012defdf8461a289f866b2b4ad5a0dbd0bd1816";
+	"84a239ff5b2917efd3feaa57dbfcb3e05be804c91fcbae6cff5f1124811f78c2";
 const providerETH = new ethers.providers.WebSocketProvider(
 	"wss://eth-goerli.g.alchemy.com/v2/OeUzKKKE9hMPV5i2-udahf0zD8YfOPoH"
 );
